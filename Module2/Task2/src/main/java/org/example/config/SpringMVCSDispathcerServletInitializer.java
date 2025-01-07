@@ -11,6 +11,7 @@ public class SpringMVCSDispathcerServletInitializer extends AbstractAnnotationCo
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return new Class[] {SpringConfig.class};
+
     }
 
     @Override
