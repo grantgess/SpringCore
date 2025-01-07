@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4aeacee-a185-4698-89f4-f69002b67f4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/config/SpringMVCSDispathcerServletInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/SecondController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Task2/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Task2/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
-    </list>
+    <list default="true" id="c4aeacee-a185-4698-89f4-f69002b67f4e" name="Changes" comment="реализация двух контроллеров" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -201,11 +183,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736253198055</updated>
-      <workItem from="1736253199095" duration="1507000" />
+      <workItem from="1736253199095" duration="1761000" />
     </task>
+    <task id="LOCAL-00001" summary="реализация двух контроллеров">
+      <option name="closed" value="true" />
+      <created>1736254930314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736254930314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="реализация двух контроллеров" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализация двух контроллеров" />
   </component>
 </project>
