@@ -29,7 +29,7 @@ public class FirstController {
                 result = value1 * value2;
                 break;
             case "div":
-                if (value2 != 0) result = Math.round((double)value1 / (double)value2);
+                if (value2 != 0) result = (double)value1 / (double)value2;
                 else result = 0;
                 break;
             default:
