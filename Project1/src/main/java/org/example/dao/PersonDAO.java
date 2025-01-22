@@ -23,7 +23,7 @@ public class PersonDAO {
     }
 
     public Person show(int id) {
-        return jdbcTemplate.query("select * from Person left join book on person.personID = book.personID where person.personID = ?", new Object[]{id},
+        return jdbcTemplate.query("select * from Person where personID = ?", new Object[]{id},
                 new PersonMapper()).stream().findAny().orElse(null);
     }
     public List<Book> booksByPersonID(int id)  {
