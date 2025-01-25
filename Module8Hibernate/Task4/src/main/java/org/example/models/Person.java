@@ -21,13 +21,26 @@ public class Person {
     @Column(name="age")
     private int age;
 
+    @NotEmpty(message = "Email should not be empty")
+    @Email(message = "Email should be valid")
+    @Column(name="email")
+    private String email;
+
+
     public Person() {}
 
-    public Person(int id, String name, int age) {
+    public Person(int id, String name, int age, String email) {
         this.id = id;
         this.name = name;
         this.age = age;
+        this.email = email;
+    }
+    public String getEmail() {
+        return email;
+    }
 
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public int getId() {
